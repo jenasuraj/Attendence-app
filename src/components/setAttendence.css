@@ -1,0 +1,133 @@
+/* General background styling */
+.attendence-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Attendance taker form styling */
+.attendence-taker {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Title styling */
+.attendence-taker h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Date input styling */
+.attendence-taker input[type="date"] {
+    padding: 0.6rem;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Button styling */
+.attendence-taker .put {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.attendence-taker .put:hover {
+    background-color: #45a049;
+    background:none;
+    border: 2px solid green;
+    color: #45a049;
+}
+
+/* Additional attendance list styling */
+.attendence-lister {
+    margin-top: 2rem;
+    color: #333;
+    font-size: 1.2rem;
+}
+/* Styling for the "See Attendance" button */
+.attendence-taker .see {
+    background-color: #2196f3;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.attendence-taker .see:hover {
+    background: none;
+    border: 2px solid #2196f3;
+    color: #2196f3;
+}
+
+.attendence-field {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center;    /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    height: 100vh;         /* Full height of the viewport */
+}
+
+.attendence-taker {
+    z-index: 1; /* Ensure the input area is above the background image */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better visibility */
+    padding: 20px; /* Add padding to the input area */
+    border-radius: 8px; /* Rounded corners for the input area */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional shadow for input area */
+    margin-bottom: 20px; /* Space between input area and attendance list */
+}
+
+.attendence-lister {
+    background-color: white; /* Set the background color to white */
+    padding: 20px;           /* Add padding for spacing */
+    border-radius: 8px;     /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    max-width: 600px;       /* Limit the width of the lister */
+    width: 100%;            /* Make it responsive */
+    margin-left: auto;      /* Center it */
+    margin-right: auto;     /* Center it */
+}
+
+.attendence-lister h4 {
+    margin-bottom: 10px;    /* Space below the heading */
+}
+
+/* Optional: Style individual attendance items */
+.attendence-lister p,h4 {
+    margin: 5px 0;          /* Add some margin between items */
+    font-size: 16px;        /* Set font size */
+ text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: 700;
+
+}
+h4
+{
+    color: green;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}

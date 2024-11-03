@@ -1,0 +1,127 @@
+.container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.add-section{
+  border: 2px solid rgb(40, 234, 62);
+  width: 30%;
+  height: 460px;
+  flex-direction: column;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 15px;
+ background-color: white;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.add-section button{
+  width: 80%;
+  height: 15%;
+  margin: 15px;
+  border-radius: 5px;
+  
+  font-size:medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+
+button:hover
+{
+  background-color: rgb(17, 229, 41);
+  cursor: pointer;
+font-weight: 500;
+  color: whitesmoke;
+}
+.add-section a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+.add-section label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-top: 15px;
+  }
+  
+  .add-section input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .add-section input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .add-section {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group input,
+  .submit {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .submit {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit:hover {
+    background-color:whitesmoke;
+    cursor: pointer;
+    color: green;
+    border: 1px solid green;
+  }
+  .toptext
+  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: red;
+    margin-right: 7px;
+  }
+  .toptext span{
+    font-weight:900;
+    font-size: larger;
+    color: green;
+  }
